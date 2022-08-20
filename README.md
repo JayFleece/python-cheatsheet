@@ -61,6 +61,7 @@ list_of_chars    = list(<str>)
 <el>  = <list>.pop([<int>])    # Removes and returns item at index or from the end.
 <int> = <list>.count(<el>)     # Returns number of occurrences. Also works on strings.
 <int> = <list>.index(<el>)     # Returns index of the first occurrence or raises ValueError.
+        <int>=<list>.index(<el>,<start at index>)  # Starts the search at the given location.
 <list>.remove(<el>)            # Removes first occurrence of the item or raises ValueError.
 <list>.clear()                 # Removes all items. Also works on dictionary and set.
 ```
