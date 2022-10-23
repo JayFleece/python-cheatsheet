@@ -327,6 +327,7 @@ String
 ```
 
 ```python
+<int>  = int(<str>, base [optional])         # Converts numeric string in the base it is currently in to a base 10 integer.
 <str>  = chr(<int>)                          # Converts int to Unicode character.
 <int>  = ord(<str>)                          # Converts Unicode character to int.
 ```
